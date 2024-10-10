@@ -1,0 +1,862 @@
+@font-face {
+    font-family: dast;
+    src: url(./Fonts/Far_DastNevis/Far_DastNevis.otf);
+}
+
+body {
+    direction: rtl;
+}
+
+span,
+p {
+    font-family: dast;
+    font-size: 12px;
+}
+
+input,
+h1,
+h2,
+h3,
+h4 {
+    font-family: dast;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+div.parent>header>nav>div.head1 {
+    background-color: rgba(250, 250, 250, 1);
+
+    width: 1233px;
+    border-radius: 70px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+div.parent>header>nav>div.head1>div.head2 {
+    background-color: rgba(254, 254, 255, 1);
+    width: 50%;
+    height: 60px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 70px;
+    position: absolute;
+    top: 40px;
+    left: 308.25px;
+    text-align: center;
+
+
+
+}
+
+div.parent>header>nav>div.head1>div.head2>ul {
+    margin-right: -32px;
+
+
+
+}
+
+div.parent>header>nav>div.head1>div.head2>ul>li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    width: 90px;
+
+
+
+
+}
+
+div.parent>header>nav>div.head1>div.head2>ul>li>a {
+    font-family: dast;
+    transition: 700ms;
+    position: absolute;
+    left: 10px;
+    margin: auto;
+
+}
+
+div.parent>header>nav>div.head1>div.head2>ul>li>a:hover {
+    font-size: 19px;
+}
+
+
+
+
+div.parent>header>nav>div.head1>div.Dlogo {
+    display: inline-block;
+}
+
+div.parent>header>nav>div.head1>div.Dlogo>.logo {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+
+    border-radius: 50px;
+    filter: grayscale(90%);
+
+}
+
+div.parent>header>nav>div.head1>div.Dlogo {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 45px;
+    left: 32px;
+    border-radius: 50px;
+}
+
+div.parent>header>nav>div.head1>ul>li {
+    display: inline-block;
+    font-family: dast;
+    margin-top: 12px;
+    margin-right: 40px;
+
+}
+
+div.parent>header>nav>div.head1>ul>li.other {
+    transition: 500ms;
+}
+
+div.parent>header>nav>div.head1>ul>li.other:hover {
+    border: solid .5px black;
+    border-radius: 40px;
+    background-color: #B4D6CD;
+    padding: 10px;
+}
+
+.li-end-border {
+    border: solid .5px black;
+    transition: 500ms;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.li-end-border:hover {
+    background-color: #B4D6CD;
+}
+
+div.parent>header>div.head1>div.contact {
+    display: inline-block;
+
+}
+
+
+
+div.parent>div.body1 {
+
+    background: linear-gradient(90deg, #C1DEE8, #FBD9B9);
+    margin-top: 60px;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+div.parent>div.body1>div.Bspan>.Bsp1 {
+
+    position: absolute;
+    top: 95px;
+    right: 65px;
+    font-size: 16px;
+    font-family: dast;
+}
+
+div.parent>div.body1>div.Bspan>.Bsp2 {
+    font-family: dast;
+    font-size: 40px;
+    width: 400px;
+    position: absolute;
+    top: 140px;
+    right: 65px;
+    font-weight: 600;
+}
+
+div.parent>div.body1>div.Bspan>.Bsp3 {
+    font-family: dast;
+    position: absolute;
+    top: 310px;
+    right: 65px;
+    width: 300px;
+    font-size: 16px;
+
+}
+
+div.parent>div.body1>div.Bspan>form>.email {
+    position: absolute;
+    top: 400px;
+    right: 65px;
+    height: 45px;
+    width: 340px;
+    border-radius: 40px;
+    border: none;
+}
+
+input[type=email]::placeholder {
+    font-family: dast;
+    padding-right: 20px;
+}
+
+div.parent>div.body1>div.Bspan>form>.click {
+    font-family: dast;
+    position: absolute;
+    top: 400px;
+    right: 285px;
+    background-color: black;
+    height: 45px;
+    border-radius: 40px;
+    color: white;
+    width: 120px;
+    border: none;
+}
+div.parent>div.body1>div.Bspan>div.imgb1{
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    top: -70px;
+    left: 0;
+}
+div.parent>div.body1>div.Bspan>div.imgb1>img.BlackHome {
+    width: 600px;
+    height: 700px;
+    position: absolute;
+   
+    transition: 1s;
+}
+
+div.parent>div.body1>div.Bspan>div.imgb1>img.BlackHome:hover {
+    transform: scaleX(-1);
+}
+
+div.parent>div.body2 {
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+
+}
+
+div.parent>div.body2>.B2sp1 {
+    display: block;
+    font-size: 16px;
+    font-family: dast;
+}
+
+div.parent>div.body2>.B2sp2 {
+    display: block;
+    margin-top: 10px;
+    font-size: 30px;
+    word-spacing: 5px;
+    font-family: dast;
+}
+
+div.parent>div.body3 {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+div.parent>div.body3>div.icon1 {
+    padding-right: 50px;
+    width: 33%;
+    display: inline-block;
+
+    font-family: dast;
+}
+
+div.parent>div.body3>div.icon1>.icon1-1 {
+    font-size: 50px;
+    color: lightgreen;
+
+
+}
+
+div.parent>div.body3>div.icon2 {
+    padding-right: 50px;
+    width: 33%;
+    display: inline-block;
+    font-family: dast;
+}
+
+div.parent>div.body3>div.icon2>.icon2-2 {
+    font-size: 50px;
+    color: orange;
+}
+
+div.parent>div.body3>div.icon3 {
+    padding-right: 50px;
+    width: 33%;
+    display: inline-block;
+    font-family: dast;
+}
+
+div.parent>div.body3>div.icon3>.icon3-3 {
+    font-size: 50px;
+    color: blue;
+}
+
+div.parent>div.body4 {
+    margin-top: 100px;
+    position: relative;
+
+}
+
+div.parent>div.body4>.B4sp1 {
+    margin-right: 50px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+div.parent>div.body4>.B4sp2 {
+    font-size: 30px;
+    margin-right: 50px;
+
+}
+
+div.parent>div.body5 {
+    margin-top: 30px;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    border: solid 1px rgb(101, 100, 100);
+
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw1>div.sw1-1 {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border-radius: 14px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7), rgba(255, 255, 255, 0), rgba(251, 217, 185, 0.7));
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: justify;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw1>div.divswimg1 {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw1>div.divswimg1>img.swimg1 {
+    width: 400px;
+    height: 350px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw2>div.sw2-2 {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border-radius: 14px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7), rgba(255, 255, 255, 0), rgba(251, 217, 185, 0.7));
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw2>div.divswimg2 {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw2>div.divswimg2>img.swimg2 {
+    width: 400px;
+    height: 350px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw3>div.sw3-3 {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border-radius: 14px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7), rgba(255, 255, 255, 0), rgba(251, 217, 185, 0.7));
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw3>div.divswimg3 {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw3>div.divswimg3>img.swimg3 {
+    width: 400px;
+    height: 350px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw4>div.sw4-4 {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border-radius: 14px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7), rgba(255, 255, 255, 0), rgba(251, 217, 185, 0.7));
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw4>div.divswimg4 {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw4>div.divswimg4>img.swimg4 {
+    width: 400px;
+    height: 350px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw5>div.sw5-5 {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border-radius: 14px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7), rgba(255, 255, 255, 0), rgba(251, 217, 185, 0.7));
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw5>div.divswimg5 {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw5>div.divswimg5>img.swimg5 {
+    width: 400px;
+    height: 350px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw6>div.sw6-6 {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border-radius: 14px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7), rgba(255, 255, 255, 0), rgba(251, 217, 185, 0.7));
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw6>div.divswimg6 {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw6>div.divswimg6>img.swimg6 {
+    width: 400px;
+    height: 350px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw7>div.sw7-7 {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border-radius: 14px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7), rgba(255, 255, 255, 0), rgba(251, 217, 185, 0.7));
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw7>div.divswimg7 {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw7>div.divswimg7>img.swimg7 {
+    width: 400px;
+    height: 350px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw8>div.sw8-8 {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border-radius: 14px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7), rgba(255, 255, 255, 0), rgba(251, 217, 185, 0.7));
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw8>div.divswimg8 {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw8>div.divswimg8>img.swimg8 {
+    width: 400px;
+    height: 350px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw9>div.sw9-9 {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border-radius: 14px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7), rgba(255, 255, 255, 0), rgba(251, 217, 185, 0.7));
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw9>div.divswimg9 {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw9>div.divswimg9>img.swimg9 {
+    width: 400px;
+    height: 350px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw10>div.sw10-10 {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border-radius: 14px;
+    background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7), rgba(255, 255, 255, 0), rgba(251, 217, 185, 0.7));
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw10>div.divswimg10 {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide.sw10>div.divswimg1>img.swimg10 {
+    width: 400px;
+    height: 350px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide {
+    position: relative;
+    text-align: left;
+}
+
+.rate-num {
+    position: absolute;
+    top: 545px;
+    right: 100px;
+}
+
+.rate {
+    position: absolute;
+    top: 540px;
+    right: 10px;
+}
+
+div.parent>div.body5>swiper-container>swiper-slide>h3 {
+    position: absolute;
+    top: 400px;
+    right: 0px;
+    margin-right: 10px;
+
+}
+
+div.parent>div.body5>swiper-container>swiper-slide>p {
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.checked {
+    color: orange;
+}
+
+div.parent>div.body6 {
+
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+
+}
+
+div.parent>div.body6>span {
+
+    font-weight: normal;
+    width: 700px;
+    display: inline-block;
+    font-size: 40px;
+}
+
+div.parent>div.body7 {
+    margin-top: 50px;
+    width: 1100px;
+    height: 570px;
+    margin: auto;
+    position: relative;
+}
+
+div.parent>div.body7>h2.B7h2 {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+div.parent>div.body7>p.B7p1 {
+    width: 400px;
+    position: absolute;
+    top: 120px;
+    right: 10px;
+}
+
+div.parent>div.body7>a>span.button1 {
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 330px;
+    right: 10px;
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    border-radius: 40px;
+    transition: 500ms;
+
+}
+
+
+
+div.parent>div.body7>a>span.button1:hover {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+
+div.parent>div.body7>a>span.button2 {
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    border: solid 1px gray;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 330px;
+    right: 200px;
+    transition: 500ms;
+}
+
+div.parent>div.body7>a>span.button2:hover {
+    background-color: black;
+    color: white;
+}
+
+div.parent>div.body7>span.B7sp1 {
+    font-size: 60px;
+    position: absolute;
+    top: 430px;
+    right: 10px;
+}
+
+div.parent>div.body7>span.B7sp2 {
+    font-size: 60px;
+    position: absolute;
+    top: 430px;
+    right: 160px;
+}
+
+div.parent>div.body7>span.B7sp3 {
+    font-size: 60px;
+    position: absolute;
+    top: 430px;
+    right: 320px;
+
+}
+
+div.parent>div.body7>span.B7sp4 {
+
+    position: absolute;
+    top: 510px;
+    right: 15px;
+}
+
+div.parent>div.body7>span.B7sp5 {
+
+    position: absolute;
+    top: 510px;
+    right: 185px;
+}
+
+div.parent>div.body7>span.B7sp6 {
+
+    position: absolute;
+    top: 510px;
+    right: 335px;
+}
+
+div.parent>div.body7>div.B7img {
+    width: 500px;
+    height: 570px;
+    border-radius: 14px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+div.parent>div.body7>div.B7img>img {
+
+    width: 650px;
+    height: 570px;
+    border-radius: 14px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+div.parent>footer {
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 100px;
+    width: 1200px;
+    height: 450px;
+    background: linear-gradient(90deg, #C1DEE8, #FBD9B9);
+    margin-bottom: 60px;
+    position: relative;
+
+}
+
+div.parent>footer>div.footerimg {
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    bottom: -50px;
+    left: 0px;
+
+}
+
+div.parent>footer>div.footerimg>img.img-footer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 600px;
+    height: 550px;
+    bottom: -50px;
+    left: 0px;
+    transform: scaleX(-1);
+}
+
+div.parent>footer>span.footersp1 {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 40px;
+}
+
+div.parent>footer>.footerp {
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    width: 500px;
+}
+
+div.parent>footer>form>.email {
+    position: absolute;
+    top: 380px;
+    right: 65px;
+    height: 45px;
+    width: 340px;
+    border-radius: 40px;
+    border: none;
+}
+
+input[type=email]::placeholder {
+    padding-right: 20px;
+}
+
+div.parent>footer>form>.click {
+    position: absolute;
+    top: 380px;
+    right: 285px;
+    background-color: black;
+    height: 45px;
+    border-radius: 40px;
+    color: white;
+    width: 120px;
+    border: none;
+}

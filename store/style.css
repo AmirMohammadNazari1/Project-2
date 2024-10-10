@@ -1,0 +1,473 @@
+@font-face {
+    font-family: dast;
+    src: url(../Fonts/Far_DastNevis/Far_DastNevis.otf);
+}
+
+body {
+    direction: rtl;
+}
+
+span,
+p {
+    font-family: dast;
+    font-size: 12px;
+}
+
+input,
+h1,
+h2,
+h3,
+h4 {
+    font-family: dast;
+}
+a{
+    text-decoration: unset;
+    color: black;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div.parent>header>nav>div.head1 {
+    background-color: rgba(250, 250, 250, 1);
+
+    width: 1233px;
+    border-radius: 70px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+div.parent>header>nav>div.head1>div.head2 {
+    background-color: rgba(254, 254, 255, 1);
+    width: 50%;
+    height: 60px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 70px;
+    position: absolute;
+    top: 40px;
+    left: 308.25px;
+    text-align: center;
+
+
+
+}
+
+div.parent>header>nav>div.head1>div.head2>ul {
+    margin-right: -32px;
+
+
+
+}
+
+div.parent>header>nav>div.head1>div.head2>ul>li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    width: 90px;
+
+
+
+
+}
+
+div.parent>header>nav>div.head1>div.head2>ul>li>a {
+    font-family: dast;
+    transition: 700ms;
+    position: absolute;
+    left: 10px;
+    margin: auto;
+
+}
+
+div.parent>header>nav>div.head1>div.head2>ul>li>a:hover {
+    font-size: 19px;
+}
+
+
+
+
+div.parent>header>nav>div.head1>div.Dlogo {
+    display: inline-block;
+}
+
+div.parent>header>nav>div.head1>div.Dlogo>.logo {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+
+    border-radius: 50px;
+    filter: grayscale(90%);
+
+}
+
+div.parent>header>nav>div.head1>div.Dlogo {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 45px;
+    left: 32px;
+    border-radius: 50px;
+}
+
+div.parent>header>nav>div.head1>ul>li {
+    display: inline-block;
+    font-family: dast;
+    margin-top: 12px;
+    margin-right: 40px;
+
+}
+
+div.parent>header>nav>div.head1>ul>li.other {
+    transition: 500ms;
+}
+
+div.parent>header>nav>div.head1>ul>li.other:hover {
+    border: solid .5px black;
+    border-radius: 40px;
+    background-color: #B4D6CD;
+    padding: 10px;
+}
+
+.li-end-border {
+    border: solid .5px black;
+    transition: 500ms;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.li-end-border:hover {
+    background-color: #B4D6CD;
+}
+
+div.parent>header>div.head1>div.contact {
+    display: inline-block;
+
+}
+div.parent {
+    position: relative;
+}
+
+div.parent>div.swiper1>swiper-container {
+    width: 1150px;
+    height: 400px;
+    position: absolute;
+    left: 55px;
+    top: 190px;
+
+
+
+}
+
+div.parent>div.swiper1>swiper-container>swiper-slide {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 1px black;
+}
+
+div.parent>div.swiper1>swiper-container>swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.parent>div.swiper1>swiper-container>.sw1 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+
+}
+
+div.parent>div.swiper1>swiper-container>.sw1>img.swimg1 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw2 {
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw2>img.swimg2 {
+    width: 600px;
+    height: 400px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw3 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw3>img.swimg3 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw4 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw4>img.swimg4 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw5 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw5>img.swimg5 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw6 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw6>img.swimg6 {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+div.parent>div.swiper1>swiper-container>.sw7 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw7>img.swimg7 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw8 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw8>img.swimg8 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw9 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper1>swiper-container>.sw9>img.swimg9 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>h2.new {
+    position: absolute;
+    right: 85px;
+    top: 150px;
+}
+
+
+
+
+
+div.parent>div.swiper2>swiper-container {
+    width: 1150px;
+    height: 400px;
+    position: absolute;
+    left: 55px;
+    top: 800px;
+
+
+
+}
+
+div.parent>div.swiper2>swiper-container>swiper-slide {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 1px black;
+}
+
+div.parent>div.swiper2>swiper-container>swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.parent>div.swiper2>swiper-container>.sw1 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+
+}
+
+div.parent>div.swiper2>swiper-container>.sw1>img.swimg1 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw2 {
+    width: 650px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw2>img.swimg2 {
+    width: 650px;
+    height: 400px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw3 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw3>img.swimg3 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw4 {
+    width: 500px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw4>img.swimg4 {
+    width: 500px;
+    height: 400px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw5 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw5>img.swimg5 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw6 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw6>img.swimg6 {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+div.parent>div.swiper2>swiper-container>.sw7 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
+    border-radius: 40px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw7>img.swimg7 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw8 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    border-radius: 40px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw8>img.swimg8 {
+    width: 400px;
+    height: 400px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw9 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    border-radius: 40px;
+}
+
+div.parent>div.swiper2>swiper-container>.sw9>img.swimg9 {
+    width: 400px;
+    height: 400px;
+}
+div.parent>h2.peo {
+    position: absolute;
+    right: 85px;
+    top: 750px;
+}

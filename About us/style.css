@@ -1,0 +1,388 @@
+@font-face {
+    font-family: dast;
+    src: url(./Far_DastNevis/Far_DastNevis.otf);
+}
+
+body {
+    direction: rtl;
+}
+
+span,
+p {
+    font-family: dast;
+    font-size: 12px;
+}
+
+input,
+h1,
+h2,
+h3,
+h4 {
+    font-family: dast;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+div.parent>header>nav>div.head1 {
+    background-color: rgba(250, 250, 250, 1);
+
+    width: 1233px;
+    border-radius: 70px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+div.parent>header>nav>div.head1>div.head2 {
+    background-color: rgba(254, 254, 255, 1);
+    width: 50%;
+    height: 60px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 70px;
+    position: absolute;
+    top: 40px;
+    left: 308.25px;
+    text-align: center;
+
+
+
+}
+
+div.parent>header>nav>div.head1>div.head2>ul {
+    margin-right: -32px;
+
+
+
+}
+
+div.parent>header>nav>div.head1>div.head2>ul>li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    width: 90px;
+
+
+
+
+}
+div.parent>header>nav>div.head1>div.head2>ul>li.home{
+    width: 70px;
+    margin-left: 10px;
+}
+div.parent>header>nav>div.head1>div.head2>ul>li>a {
+    font-family: dast;
+    transition: 700ms;
+    position: absolute;
+    left: 10px;
+    margin: auto;
+
+}
+
+div.parent>header>nav>div.head1>div.head2>ul>li>a:hover {
+    font-size: 19px;
+}
+
+
+
+
+div.parent>header>nav>div.head1>div.Dlogo {
+    display: inline-block;
+}
+
+div.parent>header>nav>div.head1>div.Dlogo>.logo {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+
+    border-radius: 50px;
+    filter: grayscale(90%);
+
+}
+
+div.parent>header>nav>div.head1>div.Dlogo {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 45px;
+    left: 32px;
+    border-radius: 50px;
+}
+
+div.parent>header>nav>div.head1>ul>li {
+    display: inline-block;
+    font-family: dast;
+    margin-top: 12px;
+    margin-right: 40px;
+
+}
+
+div.parent>header>nav>div.head1>ul>li.other {
+    transition: 500ms;
+}
+
+div.parent>header>nav>div.head1>ul>li.other:hover {
+    border: solid .5px black;
+    border-radius: 40px;
+    background-color: #B4D6CD;
+    padding: 10px;
+}
+
+.li-end-border {
+    border: solid .5px black;
+    transition: 500ms;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.li-end-border:hover {
+    background-color: #B4D6CD;
+}
+
+div.parent>header>div.head1>div.contact {
+    display: inline-block;
+
+}
+
+
+div.parent>div.child1 {
+    width: 100%;
+    height: 300px;
+    background-color: #201E43;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+div.parent>div.child1>h1 {
+    display: inline-block;
+    position: absolute;
+    left: 547px;
+    top: 50px;
+    color: white;
+
+}
+
+div.parent>div.child1>p.tozih {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: 355px;
+    top: 150px;
+}
+
+div.parent>div.child1>p.tozih2 {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: 390px;
+    top: 200px;
+}
+
+div.parent>div.child2 {
+    width: 1260px;
+    height: 500px;
+    margin-top: 40px;
+
+}
+
+div.parent>div.child2>div.keybord {
+    background-color: #134B70;
+    display: inline-block;
+    width: 376px;
+    margin-left: 17.5px;
+    margin-right: 25px;
+    height: 500px;
+    /* border: solid 1px black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+
+    position: relative;
+}
+
+div.parent>div.child2>div.keybord>div.ch1 {
+    width: 376px;
+    height: 200px;
+    background-color: #508C9B;
+    border-radius: 20px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+div.parent>div.child2>div.keybord>div.ch1>img {
+    width: 376px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.child2>div.keybord>p {
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    top: 230px;
+    display: inline-block;
+    color: white;
+
+    text-align: justify;
+}
+div.parent>div.child2>div.keybord>h2 {
+    position: absolute;
+    right: 10px;
+    top: 310px;
+    display: inline-block;
+    color: white;
+}
+div.parent>div.child2>div.keybord>p.sec {
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    top: 350px;
+    display: inline-block;
+    color: white;
+    
+    text-align: justify;
+}
+
+div.parent>div.child2>div.mouse {
+    background-color: #134B70;
+    display: inline-block;
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+    width: 376px;
+    height: 500px;
+    /* border: solid 1px black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    position: relative;
+
+
+}
+
+div.parent>div.child2>div.mouse>div.ch2>img {
+    width: 376px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.child2>div.mouse>div.ch2 {
+    width: 376px;
+    height: 200px;
+    background-color: #508C9B;
+    border-radius: 20px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+div.parent>div.child2>div.mouse>p {
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    top: 230px;
+    display: inline-block;
+    color: white;
+
+    text-align: justify;
+}
+div.parent>div.child2>div.mouse>h2 {
+    position: absolute;
+    right: 10px;
+    top: 310px;
+    display: inline-block;
+    color: white;
+}
+div.parent>div.child2>div.mouse>p.sec {
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    top: 350px;
+    display: inline-block;
+    color: white;
+    
+    text-align: justify;
+}
+
+div.parent>div.child2>div.browser {
+    background-color: #134B70;
+    display: inline-block;
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+    width: 376px;
+    height: 500px;
+    /* border: solid 1px black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    position: relative;
+
+
+}
+
+div.parent>div.child2>div.browser>div.ch3 {
+    width: 376px;
+    height: 200px;
+    background-color: #508C9B;
+    border-radius: 20px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+div.parent>div.child2>div.browser>div.ch3>img {
+    width: 376px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.parent>div.child2>div.browser>p {
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    top: 230px;
+    display: inline-block;
+    color: white;
+
+    text-align: justify;
+}
+
+div.parent>div.child2>div.browser>h2 {
+    position: absolute;
+    right: 10px;
+    top: 310px;
+    display: inline-block;
+    color: white;
+}
+div.parent>div.child2>div.browser>p.sec {
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    top: 350px;
+    display: inline-block;
+    color: white;
+    
+    text-align: justify;
+}
